@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cli-rename"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="JCav", email="micojcav@outlook.com" },
 ]
@@ -29,3 +29,6 @@ dependencies = [
 
 [project.scripts]
 cli-rename = "cli_rename:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
