@@ -13,9 +13,7 @@ depends on python and `textual`
 ## install
 
 ```
-git clone https://github.com/GJCav/pyrename.git
-cd pyrename
-pip3 install -r requirements.txt
+pip3 install py-rename
 ```
 
 ## LICENSE

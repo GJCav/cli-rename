@@ -25,6 +25,7 @@ class RenameApp(App):
     def __init__(self, pwd, **kwargs):
         super().__init__(**kwargs)
         self.pwd = pwd
+        self.dark = False
 
     def compose(self) -> ComposeResult:
         """Create child widgets for the app."""
@@ -153,9 +154,3 @@ class RenameApp(App):
     def action_quit(self) -> None:
         """An action to quit the app."""
         self.exit()
-
-
-if __name__ == "__main__":
-    pwd = os.getcwd()
-    app = RenameApp(pwd=pwd)
-    app.run()
