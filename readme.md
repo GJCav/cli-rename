@@ -6,6 +6,9 @@ Here is a quick example:
 
 ![](example/example.gif)
 
+**NOTE:** though the demonstration uses the command `pyrename`, the latest version rename it to `cli-rename`. Please
+use `cli-rename`.
+
 ## requirements
 
 depends on python and `textual`
@@ -14,6 +17,7 @@ depends on python and `textual`
 
 ```
 pip3 install cli-rename
+cli-rename
 ```
 
 ## LICENSE
