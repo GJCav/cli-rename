@@ -13,7 +13,7 @@ depends on python and `textual`
 ## install
 
 ```
-pip3 install py-rename
+pip3 install cli-rename
 ```
 
 ## LICENSE
